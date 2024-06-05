@@ -1,4 +1,4 @@
-# mlat-server, wiedehopf fork
+# mlat-server, FlightSurf fork
 
 This is a Mode S multilateration server that is designed to operate with
 clients that do _not_ have synchronized clocks.
@@ -10,7 +10,7 @@ messages to model the clock characteristics of each receiver.
 Then it does multilateration of aircraft that are transmitting only Mode S
 using the same receivers.
 
-## Numerous changes by wiedehopf and TanerH
+## Numerous changes by FlightSurf and TanerH
 
 See commits or a diff for details.
 
@@ -100,8 +100,8 @@ to hack on the code.
 ## Clients
 
 You need a bunch of receivers running mlat-client:
-https://github.com/wiedehopf/mlat-client
-The original version by mutability will also work but the wiedehopf client has some changes that are useful.
+https://github.com/flightsurf/mlat-client
+The original version by mutability will also work but the FlightSurf client has some changes that are useful.
 (https://github.com/mutability/mlat-client)
 
 ## Output
